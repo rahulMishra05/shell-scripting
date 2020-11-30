@@ -1,0 +1,54 @@
+		SHELL SCRIPTING NOTES
+*************************************************************************
+
+			VIDEO 1
+
+1. To see how many shells are present just type "cat /etc/shells"
+
+2. To see the location of bash just type "which bash"
+
+3. To create a file type "touch <file-name>". When we create a file using touch command it have read and write permision
+	not execute permision
+
+4. To create a file and edit it using GNU editor type "nano <file-name>"
+
+5. ".sh" is the extension of shell script file.
+
+6. "chmod +x <file_name>" by this we can give execute permision to any file, if it does not have execute permision.
+
+
+			VIDEO 2
+
+7. Comment can be added using "#" sign.
+
+8. Variables:
+	@ Varibales are container which stores some insde them.
+	@ There are two types of variables "system variables" and user defined variables.
+	@ System variables are created and maintained by the Linux or Unix system itself. These variables are standard variables defined by thr
+		operating system. The standard convension is that they are capital case.
+	@ User difned varilables are created and maintained by the user like us. Generally these variables are defined in lower case.
+
+9. System variable:
+	@ "$BASH": This will give you the name of your shell.
+	@ "$BASH_VERSION": This will give the version of the bash you are using.
+	@ "$HOME": This will give the address of home directory.
+	@ "$PWD": It stands for present working directory, this will give us the address of present working directory.
+
+10. User defined variable:
+	@ We can define a varialbe in this way " <variable_name> = <value> ". And can call it like this " echo $<variable_name>"
+	@ Your variable name should not start with number, beacsue shell will not consuder it as a variable then 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
