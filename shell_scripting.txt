@@ -39,7 +39,17 @@
 	@ Your variable name should not start with number, beacsue shell will not consuder it as a variable then 
 
 
+			VIDEO 3
 
+11. Read command takes input from the user and assign it to the user.
+	We store the input in the variable and then we can use that variable where ever we want.
+	If we want to take multiple inputs then we can simply do that by passing multiple variables after the read command.
+	If we want to take the input in the same line in which message is shown we can do this " read -p '<message>' <variable_name> "
+		We sue -p flag with reda to this.
+	If you do not want to show the input user is writing on the screen as in the case of password you can use -sp flag after read
+	We can take input in the array from the user by using a flag after read command "-a"
+	When we do not write any variable name after the read command, then the input will go inside the built-in variable "REPLY" and we can call
+		it to see or access the data of the input.
 
 
 
