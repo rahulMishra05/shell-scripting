@@ -65,7 +65,28 @@
 		If we want to find the number of arguments passed then we can simply use this command "echo $#" this will print the number of arguments passed.
 
 
+			
+			VIDEO 5
 
+13. if-else:
+	# Interger comparision:
+		@ -eq: is euqal to
+		@ -ne: is not equal to
+		@ -gt: is greater than 
+		@ -ge: is greater than or equal to
+		@ -lt: is less than
+		@ -le: is less than or equal to
+		@ < : is less than
+		@ <= : is less than pr equal to
+		@ > : is greater than 
+		@ >= : is greater than or equal to
+	# String comparision:
+		@ = : is equal to
+		@ == : is equal to
+		@ != : is not equal to
+		@ < : is less than, in ASCII alphabetical order
+		@ > : is greater than, in ASCII alphabetical order
+		@ -z : string is null, that is, hazero length 
 
 
 
