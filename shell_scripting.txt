@@ -52,6 +52,19 @@
 		it to see or access the data of the input.
 
 
+			VIDEO 4
+
+12. Passing argument:
+	@ We can pass arguments to a script when we are executing it. To do so we have to write this command "echo $1 $2 $3", whne we run the script
+		at that time we can give three input and they will be printed on the scree. If we want to print the name of the file (shell file) then we can add this 
+		" echo $0 $1 $2 $3" again we can pass three variable but in this case name of the file will also be shown because the name of the file get stored in 0th variable.
+	@ Another way to do the same is by using the default variable "$@", <arrya_name>=("$@")
+		We have to declare a array which will store the argumnet, and then we can print it in the same way we print array on the screen just like this.
+		"echo ${<array_name>[0]} ${<array_name>[1]}"
+		If we want to print all the arguments then we can write this command "echo $@"
+		If we want to find the number of arguments passed then we can simply use this command "echo $#" this will print the number of arguments passed.
+
+
 
 
 
