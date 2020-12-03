@@ -89,6 +89,32 @@
 		@ -z : string is null, that is, hazero length 
 
 
+			VIDEO 6
+
+14. If we want to keep the cursor on the same line after printing the echo command we can  do this by 
+	" echo -e "Enter any thing : \c" " Here "\c" is being to keep the cursor on the same line and if we do not use "-e" flag
+	after echo then \c will also get print on the screen  and the cursor will go in next line.
+
+15. If we want to check the file exeist or not then in if condidtion we can use "-e" flag for it.
+
+16. Similarly "-f" flag in if condition is used to check that if the file exesit and is it the regular file or not.
+
+17, In the same way of we want to check for the directories we can use "-d" falg in if condition.
+
+18. There are two types of file "block special" and "character special"
+
+19. Character special file is the file which consist of character and like some data or code etc
+
+20 Block special file is the file which consist binary data or picture or video etc.
+
+21. To check the file is block special we can use "-b" flag in if condition and to check for character special file we use "-c" in if condition.
+
+22. If we want to check that wheter the file is empty or not we use "-s" flag.
+
+23. If you want to check that file have read permision then use "-r" flag. If you want to check that file have write permision then use "-w" flag, 
+	And if you to check that the file contain wheter it has execute permission or not then use "-x" flag.
+
+
 
 
 
