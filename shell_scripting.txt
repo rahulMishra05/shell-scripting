@@ -115,6 +115,34 @@
 	And if you to check that the file contain wheter it has execute permission or not then use "-x" flag.
 
 
+			VIDEO 7
+
+24. If we want to add some data in the end of the file we can do that in this way.
+	@ First we will check wheter that file exist or not and that the file is regular file or not.
+	@ If it has read permission then we will ckech the file has write permission or not.
+	@ We can add some data at the end of the file by this this command " cat >> <file_name> ", remember that if we use ">>" this means that we want to add 
+		some data at the end of the file, but if we use ">" after cat command then it means that we want to overwrite the file.
+	@ If the file do not have write permission then we will print that file does not have write permission and program will exit.
+	@ Similarly, if the file do not exist then also the program will exit after a message that file doesn't exist.
+
+25. Note: To remove the write permission form the file we can write this command "chmod -w <file_name>", and if we want to give write permission to the 
+	file we will write "chmod +w <file_name>"
+
+
+			VIDEO 8 
+
+26. We are using AND operator with if condition to solve a problem
+	@ If the age is greater than 18 and less than 30 then we will print success
+	@ Otherwise we will print fail
+	@ The syntax of if condition for this problem will be "if ["$<variable_name>" -gt 18] && ["$<variable_name>" -lt 30]"  
+	@ There are two ways to use AND operator, we are using "&&" in our example.
+	@ If AND operator is used then both the conditions should be true in order to get true, otherwise it will retuen false.
+	@ Another way to use and operator is "if ["$<variable_name>" -gt 18 -a "$<variable_name>" -lt 30]"
+	@ In this way we use "-a" flag and it will work same as "&&" but the syntax to write the if condition gets little bit.
+	@ If you want to use && operator then there is one more way to do that is by using double square brackets like this 
+		"if [[ "$<variable_name>" -gt 18 && "$<variable_name>" -lt 30]]"
+
+
 
 
 
