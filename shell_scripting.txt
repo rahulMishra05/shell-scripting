@@ -143,6 +143,19 @@
 		"if [[ "$<variable_name>" -gt 18 && "$<variable_name>" -lt 30]]"
 
 
+			VIDEO 9
+
+27. We are using OR operator with if condition to solve a problem
+	@ If the age is greater than 18 OR less that 30 then it will be successuful/ true.
+	@ Otherwise it will give false.
+	@ The syntax of if condition for this problem will be "if [ "$<varable_name>" -gt 18] || [ "$<variable_name>" -t 30 ]"
+	@ If OR operator is used then if only one condition is true, than also it will give true.
+	@ Another way to use OR operator is like "if [ "$<variable_name>" -gt 18 -o "$<variable_name>" -lt 30 ]"
+	@ In this way we use "-o" flag and it work same as "||" but the syntax to write the if condtipon is changed little bit.
+	@ If you want to use || operator then there is one more way to do and that is by using double square brackets like this 
+		" if [[ "$<variable_name>" -gt 18 || "$<variable_name>" -lt 30 ]]" 
+
+
 
 
 
