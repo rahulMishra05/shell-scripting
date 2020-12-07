@@ -169,10 +169,30 @@
 32. Another way to perform an arthimetic operation is by using expr keyword. Like this
 	"echo (expr $num1 + $num2)"
 	In this way we do not use two palanthesis and also use the variable with $ sign before them.
-	One more thing that we can not use * for multiplication it will give an eror, so we will use \* sign for multiplication. 
+	One more thing that we can not use * for multiplication it will give an eror, so we will use \* sign for multiplication.
 
 
+			VIDEO 11
 
+33. We cannot perform arthmitic operatios on decimal using the previous methods, it will give an error.
+	For that we use bc which stands for basic calculator.
+
+34. We can use this bc command in this way "echo "20.5+5" | bc"
+
+35. But there is a problem with division that it will not show the values after decimal in the case of division. So to remove that we have to define a variable 
+	scale like this "echo "scale=2;20.5+5" | bc"
+	Here we can see the value of 2 decimal places as we had passed the value of scale 2   
+
+36. We can also solve calculate square root of some number and also solve trignometric equations using the bc keyword.
+
+37. We can also solve using some variables like this "echo "$<variable_name1>+$<variable_name2>" | bc". Here num1 and num2 are variables which have some value in it.
+
+38. We can calculate the square root of a number in this way "echo "scale=2;sqrt($<variable_name>)" | bc -l". To calculate we have to use a function called sqrt and pass the variable name to it whose square root we want to calculate.
+	But to use sqrt function is a math function and we need to call it, so we can call math function by "-l" command.
+
+39. We can also calcualte power of any number like this "echo "scale=2;3^3" | bc -l"
+
+40. You can get more information about bc command by just typing "man bc" in terminal.
 
 
 
