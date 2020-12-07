@@ -156,6 +156,36 @@
 		" if [[ "$<variable_name>" -gt 18 || "$<variable_name>" -lt 30 ]]" 
 
 
+			VIDEO 10
+
+28. We are going to see some artihemitic operations.
+
+29 . If you write this command "echo 1+1" then it will print 1+1 in the output, beacuse by deaflut echo consider everything written after it as a string.
+
+30. We can do this by this command "echo $((num1 + num2 ))". Here num1 and mun2 are variables and both the variables contains some value. This command will print the desired result.
+
+31. In the similar way we can also perform other arthemitic operation.
+
+32. Another way to perform an arthimetic operation is by using expr keyword. Like this
+	"echo (expr $num1 + $num2)"
+	In this way we do not use two palanthesis and also use the variable with $ sign before them.
+	One more thing that we can not use * for multiplication it will give an eror, so we will use \* sign for multiplication. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
