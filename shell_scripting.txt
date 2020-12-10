@@ -214,6 +214,23 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 43. "* )" this is the default comdition of case statement.
 
 
+			VIDEO 13
+
+44. We are going to find that entered character is capital or small.
+
+45. Firts we will ask for the input from the user, with this command "echo -e "Enter some characters: \c""
+
+46. Then we will store that value is a variable, named as "value"
+
+47. Now we will apply case statement.
+	[a-z]: This means that we are expecting a small alphabet from a to z.
+	[A-Z]: This means that we are expecting a capital alphabet from A to Z.
+	[0-9]: This means that we are expecting an integer from 0 to 9
+	? : This means that we are expecting any special character. (Only one special character.)
+	
+48. If your program doesn't take or recognize the capital alphabets then just type this command in terminal "LANG=C" 
+
+
 
 
 
