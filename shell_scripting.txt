@@ -195,7 +195,23 @@
 40. You can get more information about bc command by just typing "man bc" in terminal.
 
 
+	
+			VIDEO 12
 
+41. The case statement can be used as an alternate for if conditions.
+
+42. The basic syntax of case statement is like this.
+	case expression in 
+		pattern1 )
+			statements ;;
+		pattern2 )
+			statement ;;
+	esac
+
+Here the ")" after the pattren1 and pattern2 means which is different case are finished. 
+And the duoble semicolon ";;" after statement means that this case is true and completely executed.
+
+43. "* )" this is the default comdition of case statement.
 
 
 
