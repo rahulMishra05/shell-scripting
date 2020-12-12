@@ -232,8 +232,25 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+			VIDEO 14
 
+49. We can declare array in this way "<name_of_array_varaible>=("ubuntu" "windows" "kali")"
+	By this way we can declare a array and store some values in it.
 
+50. To print all the values of array just write this command "echo ${<name_of_array_varaiblr>[@]}"
+	
+51. If you want to print a specific value of the array then you can use this command "echo ${<name_of_array_varialbe>[<index_location>]}"
+	for example: echo ${os[1]}
+
+52. If you want to print the index of the array then you can do it like this "echo ${!<name_of_array_varriable>[@]}". for example echo ${!os[@]}
+
+53. if you want to print the lenght of the array then you can do it like this "echo ${#<name_of_array_variable>[@]}". For example ecgo ${#os[@]}
+
+54. We can add elements to array in this way <name_of_array_variable>[index_location]="<value>". For example: os[3]='mac'
+
+55. We can update the data of an array in the same way <name_of_array_varialbe>[index_location]="<value>". For example: os[0]='mac'
+
+56. If you want to remove an element form an array then you can do it by using unset command like this "unset <name_of_array_variable>[index_locatoin]". for example unset os[2]
 
 
 
