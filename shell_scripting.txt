@@ -253,6 +253,18 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 56. If you want to remove an element form an array then you can do it by using unset command like this "unset <name_of_array_variable>[index_locatoin]". for example unset os[2]
 
 
+			
+			VIDEO 15
+
+57. The syntax of while loop is 
+	while [condition]
+	do
+		command1
+		command2
+		command3
+	done
+
+58. If we want to incrimient the value of the variable we can do that in this way "n=$(( n+1 ))" or (( n++ )) or (( ++n ))
 
 
 
