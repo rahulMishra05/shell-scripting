@@ -276,6 +276,59 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+			VIDEO 17
+
+61. We are going to see how to read file using while loop.
+
+62. "<" we use input redirection for this. This means that the content of the file will be sent to the wjhile loop and there we will 
+	store the value of while loop inside a variable and then print then content of that variable line by line.
+	while read p
+	do
+	    echo $p
+	done < video17.sh
+
+63. Another way to read the content of file using loop is
+	cat <file_name> | while read <variable_name>
+	do
+		echo $<variable_name>
+	done
+	
+	Here the output of cat command is the input of the while command
+
+64. Some time it is difficult to read the content of the file using this methods.
+
+65. Now we will use IFS (Internal feild sepereater) it used by shell to determine how to do word spiliting
+
+66. Here we are assigning space to IFS, and we use -r beacuse by it, it will not interpret backslash.
+	while IFS='' read -r line
+	do 
+    		echo $line
+	done < video17.sh
+
+67. At the place of file we can also give the file present at different location, along with there address
+	just like "/etc/someFile.txt"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
