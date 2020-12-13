@@ -268,6 +268,13 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+			VIDEO 16
+
+59. If you want to pause the execution of the loop for a while then you can use sleep command. "sleep 1" this will pause the execution of the loop for 1 second.
+
+60. We can open terminal using shell script, in the loop if we write "gnome-terminal &" then the terminal which is present in GNOME desktop will get open.
+
+
 
 
 
