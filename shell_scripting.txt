@@ -310,6 +310,24 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+			VIDEO 18
+
+68. Until loop are slightly different from while loop
+
+69. Syntax of until loop.
+	until [ conditoin ]
+	do
+		command1
+		command2
+		command3
+	done
+
+70. In while loop if the commands are true than only commands get executed. While on the other hand in the until loop if the commans are false then only 
+	commands are executed.
+
+
+
+
 
 
 
