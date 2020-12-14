@@ -326,6 +326,47 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 	commands are executed.
 
 
+			VIDEO 19
+
+71. Syntax of for loop. There are many ways to write the for loop
+	- First way
+		for VARIBALE in 1 2 3 4 5 . . N
+		do
+			command1
+			commadn2
+			commadnN
+		done
+
+	- Second way
+		for VARIABLE in file1 file2 file3
+		do
+			command1 on $VARIABLE
+			command2
+			commandN
+		done
+	
+	- Third way
+		for OUTPUT in $(Linux-Or-Unix-Command-Here)
+		do
+			command1 on $OUTPUT
+			command2 on $OUTPUT
+			commandN
+		done
+
+	- Forth way
+		for (( EXP1; EXP2; EXP3 ))
+		do
+			command1
+			command2
+			command3
+		done
+
+72. We can give the range to interate like this "{1..10}". Here the range is from 1 to 10
+
+73. if we want to specify increment than we can do that in this way. "{1..10..2}". Here the range is from one to 10 and increment will be of 2
+
+74. You can use the above methods only if your bash version is above 4. You can check you bash version by this command "echo ${BASH_VERSION}"
+
 
 
 
