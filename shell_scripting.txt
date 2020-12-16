@@ -369,6 +369,28 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+			VIDEO 20
+
+75. We can use for loop to execute commands.
+	for command in ls pwd date
+	do
+		echo "---------$command-----------"
+		$command
+	done
+
+	@ In this example first "ls" command will get executed then "pwd" command and in last "date" command.
+
+76. Let's solve another problem we have to print the name of all the directories present in any folder using for loop.
+	for item in *
+	do
+		if [ -d $item ]
+		then
+			echo $item
+		fi
+	done
+
+	@ Here * will go throught each and every file present in that directory.
+	@ If conditoin will check that whether that file is a directory or not, if it directory than its name get printed.
 
 
 
