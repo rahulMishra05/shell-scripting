@@ -393,7 +393,20 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 	@ If conditoin will check that whether that file is a directory or not, if it directory than its name get printed.
 
 
+		VIDEO 21
 
+77. Select loop syntax
+	select varName in list
+	do
+		command1
+		command2
+		commandN
+	done
+
+78. The list item will be denoted by different numbers, and to select any specific item from that list 
+	you have to enter that number.
+
+79. Its structure is simillar to for loop but the funcitonality is different. It will iterate over the list asnd give us the menu structure.
 
 
 
