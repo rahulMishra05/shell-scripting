@@ -410,6 +410,13 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+		VIDEO 22
+
+80. when ever we want to break out of the loop prematuraly than we use break statement.
+
+81. Continue will skip the execution when its conidition  is meet.
+
+
 
 
 
