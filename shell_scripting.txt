@@ -417,6 +417,23 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 81. Continue will skip the execution when its conidition  is meet.
 
 
+		VIDEO 23
+
+82. Syntax of functions 
+	functio name(){
+		commands
+	}
+	
+	name () {
+		commands
+	}
+
+83. Function declaration can be done in any sequence but the calling of the function matters.
+
+84. To pass arguments to  a function we have to pass the argument while calling the function. We can access that argumets by this "$1" this means first argiment
+	"$2" means the second argument.
+
+85. We can call a function multiple times and can pass multiple argumets to the function at time of calling of the function.
 
 
 
