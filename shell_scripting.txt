@@ -437,6 +437,16 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 
 
 
+		VIDEO 24
+
+86. Generally we declare a global variable that can be accessed from anywhere.
+
+87. To declare a local variable we just write a keywird before the name of the variable "local" <variable_name>
+
+88. We can declare a local variable inside a function. Then no one outside the funtion can access that variabel.
+
+89. Suppose we try to print the local variable declared insde the funtion, outside the function than nothing will print.
+
 
 
 
