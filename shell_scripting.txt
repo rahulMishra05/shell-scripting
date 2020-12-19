@@ -452,6 +452,21 @@ And the duoble semicolon ";;" after statement means that this case is true and c
 		VIDEO 25
 
 
+		VIDEO 26
+
+90. Readonly command can be used to to make you variables and functions read only that means you cannot change the value of variables or you can not overwrite a function.
+
+91. We can make a variable readonly using "readonly" keyword before the variable's name just like this "readonly <variable_name>"
+
+92. If you try to assign some value to a readonly variable then it will show an error.
+
+93. If you want to make a function readonly function, we can do that in this way "readonly -f <functio_name>"
+	For making a function readonly we use "-f" flag
+
+94. If you just write readonly and nothing in front of it, than you will get an output mentioning all the buivariables which are readonly.
+	If you use this command "readonly -p" than also you will get the same result.
+
+95. Similarly if you want to check for readonly function than write "readonly -f"
 
 
 
